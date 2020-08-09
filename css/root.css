@@ -5,12 +5,27 @@
     font-size: 100%;
     outline: 0;
 }
+body {
+    background: #f4f4f4;
+}
 a {
     text-decoration: none;
     outline: none;
 }
 ul{
     list-style: none;
+}
+#scroll_top {
+    cursor: pointer;
+    display: block;
+    height: 64px;
+    opacity: .5;
+    position: fixed;
+    right: 10px;
+    top: 80%!important;
+    width: 64px;
+    z-index: 999;
+    background: url(../images/index_anchor.png) no-repeat;
 }
 .clr{
     clear: both;
@@ -259,4 +274,8 @@ ul{
 }
 #videoMenu{
     float: right;
+}
+.bgadmtoptotal {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
