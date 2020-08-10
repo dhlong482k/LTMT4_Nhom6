@@ -17,7 +17,7 @@ ul{
 }
 #scroll_top {
     cursor: pointer;
-    display: block;
+    display: none;
     height: 64px;
     opacity: .5;
     position: fixed;
@@ -214,8 +214,13 @@ ul{
     margin-right: 6px;
     text-transform: capitalize;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1005;
+}
 .menu {
-    position: relative;
     box-shadow: none;
     width: 100%;
     display: inline-block;
@@ -242,11 +247,6 @@ ul{
     color: #fff;
     background: #c90000;
 }
-.topmenuul {
-    width: 100%;
-    position: relative;
-    height: 32px;
-}
 .menu ul .homeMenu{
     height: 32px;
     padding: 0 8px;
@@ -255,13 +255,18 @@ ul{
     position: relative;
     background: #c90000;
 }
-.iconmenuhome {
-    margin-top: 8px;
-}
 .menu ul .divSearchTop {
     float: right;
     position: relative;
     padding-left: 7px;
+}
+.topmenuul {
+    width: 100%;
+    position: relative;
+    height: 32px;
+}
+.iconmenuhome {
+    margin-top: 8px;
 }
 #imgSearch {
     float: left;

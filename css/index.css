@@ -425,3 +425,142 @@
     width: 100%;
     height: auto;
 }
+.docnhieuandcauchuyenthuonghieu {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    float: left;
+    display: block;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur {
+    width: 418px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    float: left;
+    position: relative;
+    padding-top: 15px;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur .tab {
+    padding-left: 24px;
+    margin-bottom: 14px;
+    padding-top: 3px;
+    color: #292828;
+    font: normal 17px/23px RobotoCondensed-Bold;
+    position: relative;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur ul li {
+    width: 185px;
+    float: left;
+    border: none;
+    margin-top: 0;
+    padding-bottom: 18px;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur ul li:first-child {
+    width: 100%;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur ul li a:first-child {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur ul li img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    border-radius: 0;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur ul li .chth_avabottom {
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    padding: 7px;
+    background-color: #111;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.thuonghieur .chth_avabottom span {
+    float: right;
+    font: normal 11px/23px Arial;
+    margin-left: 10px;
+    color: #9e9e9e;
+    display: block;
+}
+.thuonghieur .chth_avabottom .btcat {
+    display: block;
+    float: right;
+    padding: 0 5px;
+    color: #737373;
+    border: 1px solid #424242;
+    background-color: #222;
+    margin-top: 1px;
+    border-radius: 2px;
+    font: normal 11px/18px Arial;
+    margin-left: 10px;
+}
+.icon_bighot {
+    background-position: -82px -0px;
+    width: 36px;
+    height: 15px;
+    float: left;
+    margin-right: 7px;
+    margin-top: 6px;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur ul li h3 a {
+    font: normal 15px/20px Roboto-Bold;
+    color: #181717;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur ul li:first-child h3 a {
+    color: #111;
+    font: normal 21px/26px Roboto-Bold;
+}
+.docnhieuandcauchuyenthuonghieu .thuonghieur ul li:last-child {
+    margin-left: 22px;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel {
+    position: relative;
+    box-sizing: border-box;
+    width: 282px;
+    float: left;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel .tab {
+    color: #292828;
+    background: #fff;
+    padding: 17px 20px 20px 43px;
+    font: normal 17px/23px RobotoCondensed-Bold;
+    position: relative;
+    height: 54px;
+    box-sizing: border-box;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel .dnlist {
+    overflow: hidden;
+    position: relative;
+    padding-left: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel .item:first-of-type {
+    border-top: 1px solid #dbdfe6;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel .item:last-child {
+    border-bottom: none;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel .item {
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+    border-bottom: 1px solid #dbdfe6;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel .item h3 {
+    margin-top: -3px;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel .item h3 a {
+    color: #1b1b1b;
+    font: normal 14px/19px Roboto-Medium;
+    display: block;
+    margin-bottom: 3px;
+}
+.docnhieuandcauchuyenthuonghieu .docnhieuhomel .item .view {
+    font: normal 11px arial;
+    color: #999;
+}
