@@ -1,0 +1,222 @@
+@charset "utf-8";
+.sum {
+    width: 1000px;
+    margin: auto;
+}
+
+.left_kinhdoanh {
+    width: 650px;
+    height: 500px;
+    margin: auto;
+    float: left;
+}
+
+.right_kinhdoanh {
+    width: 350px;
+    margin: 0 auto;
+    float: left;
+    font-size: 13px;
+    font-family: Roboto-Medium;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.gachdocnhieu {
+    width: 29px;
+    height: 2px;
+    display: block;
+    background: #d8d8d8;
+    margin-right: 16px;
+    float: left;
+    margin-top: 13px;
+}
+.title_docnhieu {
+    color: black;
+    font-size: 13px;
+    font-family: Roboto-Medium;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 6px;
+    font-weight: bold;
+}
+#docnhieu {
+    width: 100%;
+    float: left;
+    margin-top: 4px;
+    position: relative;
+    overflow-y: hidden;
+    width: auto;
+    height: 500px;
+}
+#docnhieu ul{   
+    overflow-y: scroll;
+    list-style: none;
+    width: auto;
+    height:500px;
+}
+#docnhieu li {
+    float: left;
+    width:333px;
+    margin-left: 0;
+    margin-top: 2px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 3px;
+}
+#docnhieu .time {
+    color: #5a5f62;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    font-size: 12px;
+    font-family: Arial;
+    width: 10px;
+    border-right: 1px solid #f0f0f0;
+    padding-right: 7px;
+    margin-top: 1px;
+}
+#docnhieu .text {
+    float: left;
+    width: 300px;
+    color: #665E5F;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+}
+.crl{clear: both;}
+.left_bottom{ width: 650px;
+   
+    margin: auto;
+    float: left;
+}
+
+
+.contentright {
+    width: 300px;
+    float: right;
+    margin-top: 10px;
+}
+.list_home {
+    width: 100%;
+    display: inline-block;
+}
+.listTiemLine ul li {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 28px;
+    margin-top: 27px;
+    border-bottom: 1px dotted #ccc;
+}
+.listTiemLine ul li img {
+    width: 260px;
+    height: 163px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.listTiemLine ul li h3 a {
+    font-size: 20px;
+    line-height: 25px;
+    color: #1d1d1d;
+    margin-top: -4px;
+    display: block;
+    font-weight: normal;
+    font-family: Roboto-Bold;
+}
+.listTiemLine ul li p {
+    color: #404f5d;
+    font-weight: normal;
+    margin-top: 9px;
+    font-size: 14px;
+    font-family: Roboto-Medium;
+}
+.listTiemLine ul li p.cate a {
+    color: #6b7179;
+    font: normal 12px Roboto-Medium;
+}
+.listTiemLine ul li p .time {
+    font-weight: normal;
+    color: #929292;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: Arial;
+}
+.listTiemLine ul .boxnhung {
+    border: none;
+    padding-bottom: 0;
+    margin-top: -6px;
+}
+.listTiemLine ul .boxnhung .boxnhungslide {
+    margin-top: 15px;
+    padding-top: 36px;
+    border-top: solid 1px #eaeaea;
+    background: linear-gradient(to right,#fff,#f6f6f6,#f6f6f6,#f6f6f6,#fff);
+    width: 100%;
+    float: left;
+}
+.listTiemLine ul .boxnhung .boxnhungslide .newsother {
+    display: flex;
+    border-bottom: none;
+    padding-top: 9px;
+    background: linear-gradient(to right,#fff,#f6f6f6,#f6f6f6,#f6f6f6,#fff);
+    width: 700px;
+    border-top: none;
+    position: relative;
+    z-index: 1;
+}
+.right_bottom{ 
+	width:330px;
+   
+    margin: auto;
+    float: left;
+}
+.mostview {
+    width: 330px;
+    float: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.mostview .item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.mostview .item .boxtitle {
+    background: #fff;
+    padding: 4px 8px;
+    border-radius: 2px;
+    color: #8d93a7;
+    position: absolute;
+    font-size: 11px;
+    z-index: 100;
+    top: 126px;
+    left: 8px;
+}
+.mostview .item img, .mostview .item video.lozad-video {
+    width: 100%;
+    height: auto;
+}
+.mostview h3 {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    position: relative;
+    text-align: left;
+    z-index: 10;
+    padding: 12px 0 5px;
+    box-sizing: border-box;
+    margin-top: -33px;
+}
+.mostview h3 a {
+    color: #2b2b2b;
+    display: block;
+    font: normal 14px/19px Roboto-Bold;
+    margin-bottom: 5px;
+}
+.mostview h3 span {
+    color: #81848a;
+    font: normal 11px Arial;
+}
