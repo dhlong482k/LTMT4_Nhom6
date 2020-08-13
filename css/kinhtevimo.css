@@ -1,0 +1,171 @@
+*{
+    font-family: Helvetica,Arial,sans-serif;
+}
+.borderktvm {
+    border: 0px solid #dbe0e8;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background: #fff;
+    overflow: hidden;
+}
+.wp1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.contentleft_ktvm {
+    padding-right: 20px;
+    border-right: solid 1px #ededed;
+    float: left;
+    width: 882px;
+    margin-top: 7px;
+}
+.noibat_ktvm{
+    width: 100%;
+    display: inline-block;
+}
+.noibat_ktvm .noibat_ktvm1{
+    width: 562px;
+    float: left;
+}
+.noibat_ktvm .noibat_ktvm1 .title{
+    width: 55%;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    padding-bottom: 22px;
+    height: 7px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    float: left;
+}
+.noibat_ktvm .noibat_ktvm1 .bg{
+    margin-top: 5px;
+    width: 45%;
+    height:7px;
+    float: right;
+    background-image: url(../images/ktvm_1.png);
+    background-repeat: repeat-x;
+}
+.noibat_ktvm .noibat_ktvm1 .title .titleP{
+    display: inline-block;
+    font-size: 17px;
+    float: left;
+    font-family: Roboto-Black;
+}
+.noibat_ktvm .noibat_ktvm1 .title .titleP a{
+    color: #465c6a;
+}
+.noibat_ktvm .noibat_ktvm1 .title .sub{
+    font-weight: 13px;
+    font-family: Roboto-Medium;
+    font-weight: normal;
+}
+.noibat_ktvm .noibat_ktvm1 .title .sub a{
+    margin-right: 18px;
+    color: #595959;
+    text-decoration: none;
+}
+.noibat_ktvm .noibat_ktvm1 .big{
+    position: relative;
+    display: flex;
+    width: 100%;
+    float: left;
+}
+.noibat_ktvm .noibat_ktvm1 .big .img{
+    float: left;
+    width: 340px;
+    display: block;
+}
+ul li{
+    list-style: none;
+}
+.noibat_ktvm .noibat_ktvm1 .big .infotop{
+    float: right;
+    width: 222px;
+    display: block;
+}
+.noibat_ktvm .noibat_ktvm1 .big .infotop a{
+    color: #191919;
+    position: relative;
+    text-decoration: none;
+    line-height: 26px;
+    font-size: 125%;
+}
+.noibat_ktvm .noibat_ktvm1 .time{
+    margin: 12px 0px 11px 0px;
+    font-family:Arial;
+    font-size: 13px;
+    color: #777;
+}
+.noibat_ktvm .noibat_ktvm1 .big .infotop .sapo{
+    font-family:Arial;
+    font-size: 13px;
+    line-height: 19px;
+    color: #757575;
+    margin-top: 6px;
+}
+.noibat_ktvm .noibat_ktvm1 .small{
+    width: 268px;
+    float: left;
+    margin-top: 23px;
+}
+.noibat_ktvm .noibat_ktvm1 .small_1{
+    margin-right: 26px;
+}
+.noibat_ktvm .noibat_ktvm1 .small h2 a{
+    color:#464646;
+    font-size: 90%;
+}
+.list1{
+    width: 562px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.list1 .list_ktvm{
+    width: 100%;
+    display: inline-block;
+}
+.list1 .list_ktvm ul .LocalNew{
+    width: 562px;
+    display: inline-block;
+    padding-bottom: 28px;
+    margin-top: 27px;
+}
+
+.list1 .list_ktvm ul li h3 a{
+    font-size: 20px;
+    line-height: 25px;
+    color: #1d1d1d;
+    margin-top: -4px;
+    margin-bottom: 14px;
+    display: block;
+}
+.list1 .list_ktvm ul li img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.list1 .list_ktvm ul li p .cate{
+    margin-top: -2px;
+}
+.list1 .list_ktvm ul li .cate .time{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #929292;
+    font-family: Arial;
+    font-weight: normal;
+}
+.list1 .list_ktvm ul li .sapo{
+    margin-top: 10px;
+    width: 291px;
+    color: #6f6f6f;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 13px;
+    float: right;
+    font-family: Arial;
+}
