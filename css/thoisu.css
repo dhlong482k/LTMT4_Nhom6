@@ -1,0 +1,493 @@
+.wpfull{
+    width: 1200px;
+    margin-left: 43px;
+    margin-right: 43px;
+}
+.content_left{
+    margin-top: 7px;
+    width: 882px;
+    float: left;
+}
+.ads_right{
+    width: 300px;
+    float: right;
+    margin-top: 10px;
+}
+.noibat{
+    width: 100%;
+    display: inline-block;
+}
+.noibat_left{
+    width: 562px;
+    float: left;
+}
+.noibat_right{
+    width: 300px;
+    float: right;
+}
+.noibat_left h1.tittle{
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    padding-bottom: 22px;
+    text-transform: uppercase;
+    height: 7px;
+    /*background: url(/images/thoisu_gach.png) repeat-x;*/
+    position: relative;
+    z-index: 1;
+}
+.noibat_left h1.tittle div{
+    display: inline-block;
+    padding-right: 16px;
+    /*background: #fff;*/
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+.noibat_left h1.tittle span.titleP {
+    display: inline-block;
+    font-size: 17px;
+    font-family: Roboto-Black;
+    text-transform: uppercase;
+    font-weight: normal;
+    /*float: left;*/
+}
+.noibat_left h1.tittle span.sub {
+    display: inline-block;
+    font-family: Roboto-Medium;
+    font-size: 13px;
+    font-weight: normal;
+    /*float: left;*/
+    margin-top: 3px;
+    text-transform: none;
+}
+.noibat_left h1.tittle span a.active {
+    color: #465c6a;
+}
+.noibat_left h1.tittle i {
+    color: #595959;
+    font-size: 13px;
+    padding: 0 10px;
+    /*float: left;*/
+    margin-top: 4px;
+}
+.noibat_left h1.tittle span.sub a {
+    margin-right: 18px;
+}
+.noibat_left h1.tittle span a {
+    color: #595959;
+}
+.noibat_left h1.tittle span.sub a:last-child {
+    margin-right: 0;
+}
+ul, li {
+    list-style: none;
+}
+.noibat_left .big {
+    position: relative;
+    display: flex;
+    width: 100%;
+    float: left;
+}
+.noibat_left .big img {
+    width: 320px;
+    height: 240px;
+    float: left;
+    margin-right: 20px;
+}
+.noibat_left .big .infotop {
+    float: right;
+    width: 222px;
+}
+.noibat_left .big h2 {
+    font-family: Roboto-Bold;
+    font-size: 21px;
+    line-height: 26px;
+    margin-top: -5px;
+    font-weight: normal;
+}
+.noibat_left .big h2 a {
+    color: #191919;
+}
+.noibat_left h2 a:hover {
+    color: #c00!important;
+}
+.show-popup {
+    position: relative;
+}
+.noibat_left .big .infotop p.time {
+    font-family: Arial;
+    font-size: 13px;
+    color: #777;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+.noibat_left .big .infotop p.sapo {
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 19px;
+    color: #757575;
+    margin-top: 6px;
+}
+.clr{
+    clear: both;
+}
+.noibat_left .small .small_top {
+    margin-right: 0;
+}
+.noibat_left .small {
+    width: 268px;
+    float: left ;
+    margin-right: 12px;
+    margin-top: 23px;
+    font-weight: bold;
+}
+.noibat_left .small{
+    display: list-item;
+}
+.noibat_left .small img {
+    width: 268px;
+    height: 166px;
+}
+.noibat_left .small p.time {
+    font-family: Arial;
+    font-size: 13px;
+    color: #777;
+    margin: 11px 0 7px;
+}
+.noibat_left .small h2 {
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-top: 11px;
+}
+.noibat_left .small .small_top h2 {
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-top: 11px;
+}
+.noibat_left .small h2 a {
+    color: #464646;
+    display: inline-block;
+}
+.noibat_left .small img {
+    width: 268px;
+    height: 166px;
+}
+.noibat_left .small p.time {
+    font-family: Arial;
+    font-size: 13px;
+    color: #777;
+    margin: 11px 0 7px;
+}
+.noibat_left .small h2 {
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-top: 11px;
+}
+.noibat_right h3.title {
+    width: 100%;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 7px;
+    background: url(/images/thoisu_list.png) repeat-x;
+    position: relative;
+    z-index: 1;
+}
+.noibat_right h3.title span {
+    display: inline-block;
+    padding-right: 16px;
+    padding-left: 16px;
+    background: #fff;
+    position: absolute;
+    top: -8px;
+    left: 24px;
+    font-family: Roboto-Black;
+    font-size: 17px;
+    color: #465c6a;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.noibat_right .khung {
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    width: 298px;
+    float: left;
+    padding-top: 7px;
+    overflow-y: scroll;
+    border-radius: 0 0 3px 3px;
+}
+.noibat_right .khung #DocNhieuList{
+    float: left;
+}
+.noibat_right .khung #DocNhieuList li{
+    width: 257px;
+    margin-left: 18px;
+    margin-top: 12px;
+    padding-bottom: 13px;
+    border-bottom: 1px dotted #ababab;
+    float: left;
+}
+.noibat_right #DocNhieuList li .icon {
+    background: url(/images/thoisu_list.png) no-repeat;
+    width: 7px;
+    height: 7px;
+    float: left;
+    display: block;
+    margin-top: 6px;
+}
+.noibat_right #DocNhieuList li a {
+    float: right;
+    width: 236px;
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+    font-weight: normal;
+}
+.gachnoibatlist {
+    width: 100%;
+    display: inline-block;
+    height: 9px;
+    background: url(/images/thoisu_gachnoilist.png) repeat-x;
+    position: relative;
+    z-index: 1;
+    margin-top: 18px;
+}
+a, img, input {
+    outline: 0;
+}
+.list1 {
+    width: 562px;
+    float: left;
+}
+.list_cate {
+    width: 100%;
+    display: inline-block;
+}
+.list_cate ul li {
+    display: inline-block;
+    width: 100%;
+    /*margin-top: 20px;*/
+}
+.listtimeline ul li {
+    padding-bottom: 28px;
+    margin-top: 27px;
+    border-bottom: 1px dotted #ccc;
+}
+.list_cate ul li:last-child {
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 26px;
+}
+.listtimeline ul li h3 a {
+    font-size: 20px;
+    line-height: 25px;
+    color: #1d1d1d;
+    margin-top: -4px;
+    display: block;
+    font-weight: normal;
+    margin-bottom: 14px;
+    font-family: Roboto-Bold;
+}
+span.subtitle:empty {
+    display: none;
+}
+.listtimeline span.subtitle {
+    color: #3c76c1;
+    font: normal 12px/16px Roboto-Medium;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.list_cate ul li p.cate {
+    margin-top: -2px;
+    display: inline-block;
+}
+.listtimeline ul li p {
+    color: #404f5d;
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Roboto-Medium;
+}
+.listtimeline ul li p span.time {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.listtimeline ul li p span.time {
+    font-weight: normal;
+    color: #929292;
+    /*font-size: 13px;*/
+    font-family: Arial;
+}
+.list_cate ul li span.time {
+    /*color: #aaa;*/
+    display: inline-block;
+}
+.listtimeline ul li p.sapo {
+    color: #6f6f6f;
+    font-weight: normal;
+    font-family: Arial;
+    line-height: 21px;
+    font-size: 13px;
+    /*width: 430px;*/
+    float: right;
+}
+.list_cate ul li p.sapo {
+    margin-top: 0;
+    width: 291px;
+}
+.list_cate ul li img {
+    width: 251px;
+    height: 156px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.list2 {
+    width: 300px;
+    float: right;
+    margin-top: 25px;
+}
+html, body {
+    font-family: Helvetica,Arial,sans-serif
+}
+.tieudiemdoanhnghiep {
+    width: 298px;
+    border: 1px solid #e7e7e7;
+    float: left;
+    padding-bottom: 19px;
+    border-radius: 3px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.chinhsachmoi {
+    width: 298px;
+    border: 1px solid #e7e7e7;
+    float: left;
+    padding-bottom: 19px;
+    border-radius: 3px;
+}
+.tieudiemdoanhnghiep .tab {
+    height: 39px;
+    width: 296px;
+    line-height: 39px;
+    text-align: left;
+    background: #fff9f2;
+    float: left;
+    border: 1px solid #fff;
+    font-family: Roboto-Black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tieudiemdoanhnghiep .tab span {
+    margin-left: 18px;
+}
+.tieudiemdoanhnghiep ul {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #e7e7e7;
+}
+.tieudiemdoanhnghiep ul li:first-child {
+    margin-top: 18px;
+}
+.tieudiemdoanhnghiep ul li:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+.tieudiemdoanhnghiep ul li {
+    /*border-bottom: 1px dotted #c7cbcf;*/
+    width: 258px;
+    /*margin-top: 15px;
+    padding-bottom: 19px;*/
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.tieudiemdoanhnghiep ul li a {
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4a4a4a;
+    font-weight: normal;
+}
+.tieudiemdoanhnghiep ul li img {
+    width: 95px;
+    height: 58px;
+    float: left;
+    margin-right: 13px;
+    margin-top: 3px;
+}
+.chinhsachmoi .tab {
+    height: 39px;
+    width: 296px;
+    line-height: 39px;
+    text-align: left;
+    background: #fff9f2;
+    float: left;
+    border: 1px solid #fff;
+    font-family: Roboto-Black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.chinhsachmoi .tab span {
+    margin-left: 18px;
+}
+.chinhsachmoi ul {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #e7e7e7;
+}
+.chinhsachmoi ul li:first-child {
+    margin-top: 18px;
+}
+.chinhsachmoi ul li {
+    border-bottom: 1px dotted #c7cbcf;
+    width: 258px;
+    margin-top: 15px;
+    padding-bottom: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.chinhsachmoi ul li:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+li {
+    display: list-item;
+}
+.chinhsachmoi ul li a {
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4a4a4a;
+    font-weight: normal;
+}
+.chinhsachmoi ul li img {
+    width: 95px;
+    height: 58px;
+    float: left;
+    margin-right: 13px;
+    margin-top: 3px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
