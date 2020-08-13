@@ -253,6 +253,12 @@ ul{
     text-align: center;
     float: left;
     position: relative;
+}
+.menu ul .homeMenu:hover{
+    color: #fff;
+    background: #c90000;    
+}
+.menu ul .menuActive{
     background: #c90000;
 }
 .menu ul .divSearchTop {
