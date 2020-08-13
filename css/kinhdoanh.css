@@ -1,18 +1,22 @@
 @charset "utf-8";
 .sum {
     width: 1200px;
+	
     margin: auto;
 }
 
 .left_kinhdoanh {
-    width: 700px;
-    height: 500px;
+    width: 666px;
+    height: 525px;
+	background: #fff;
     margin: auto;
     float: left;
 }
 
 .right_kinhdoanh {
     width: 350px;
+	 height: 520px;
+	background: #EAEAEA;
     margin: 0 auto;
     float: left;
     font-size: 13px;
@@ -86,8 +90,9 @@
     font-weight: bold;
 }
 .crl{clear: both;}
-.left_bottom{ width: 650px;
-   
+.left_bottom{
+	width: 666px;
+  	background: #EAEAEA;
     margin: auto;
     float: left;
 }
