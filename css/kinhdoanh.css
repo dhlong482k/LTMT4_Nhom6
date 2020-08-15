@@ -1,18 +1,26 @@
 @charset "utf-8";
+
 .sum {
-    width: 1000px;
+    width: 1050px;
+	height: 2500px;
+	background: #fff;
     margin: auto;
 }
 
+
 .left_kinhdoanh {
-    width: 650px;
-    height: 500px;
+    width: 666px;
+    height: 530px;
+	background: #fff;
+	
     margin: auto;
     float: left;
 }
 
 .right_kinhdoanh {
-    width: 350px;
+    width: 345px;
+	 height: 529px;
+	background: #EAEAEA;
     margin: 0 auto;
     float: left;
     font-size: 13px;
@@ -45,6 +53,7 @@
     width: 100%;
     float: left;
     margin-top: 4px;
+	 
     position: relative;
     overflow-y: hidden;
     width: auto;
@@ -58,9 +67,9 @@
 }
 #docnhieu li {
     float: left;
-    width:333px;
+    width:340px;
     margin-left: 0;
-    margin-top: 2px;
+    margin-top: 0 ;
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 3px;
 }
@@ -78,7 +87,7 @@
 }
 #docnhieu .text {
     float: left;
-    width: 300px;
+    width: 310px;
     color: #665E5F;
     font-family: Arial;
     font-size: 12px;
@@ -86,8 +95,9 @@
     font-weight: bold;
 }
 .crl{clear: both;}
-.left_bottom{ width: 650px;
-   
+.left_bottom{
+	width: 666px;
+  	background: #EAEAEA;
     margin: auto;
     float: left;
 }
@@ -168,19 +178,20 @@
 }
 .right_bottom{ 
 	width:330px;
-   
     margin: auto;
     float: left;
 }
 .mostview {
     width: 330px;
     float: left;
+	 border: 1px double #c7cbcf;
     margin-top: 20px;
     padding-left: 20px;
     box-sizing: border-box;
 }
 .mostview .item {
     position: relative;
+	 border: 1px double #c7cbcf;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -219,4 +230,66 @@
 .mostview h3 span {
     color: #81848a;
     font: normal 11px Arial;
+}
+
+
+.list2{
+    width: 310px;
+    float: right;
+    margin-top: 25px;
+}
+.list2 .tieudiem{
+    width: 300px;
+    border: 1px solid #e7e7e7;
+    float: left;
+    padding-bottom: 19px;
+    border-radius: 3px;
+}
+.list2 .tieudiem .tab{
+    height: 39px;
+    width: 296px;
+    line-height: 39px;
+    text-align: left;
+    background-color: #fff9f2;
+    float: left;
+    border: 1px solid #fff;
+    font-family: Roboto-Black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.list2 .tieudiem .tab span{
+    margin-left: 18px;
+}
+.list2 .tieudiem ul .border_list2{
+    list-style-type: none;
+    border-bottom: 1px dotted #c7cbcf;
+    width: 258px;
+    padding-bottom: 19px;
+    padding-top: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.list2 .tieudiem ul li{
+    list-style-type: none;
+    width: 258px;
+    padding-bottom: 19px;
+    padding-top: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.list2 .tieudiem ul li a img{
+    float: left;
+    width: 95px;
+}
+.list2 .tieudiem ul li .sapo{
+    width: 158px;
+    float: right;
+    font-family: Robot-Medium;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4a4a4a;
+    font-weight: bold;
 }
