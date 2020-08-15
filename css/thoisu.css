@@ -134,13 +134,10 @@ ul, li {
 .clr{
     clear: both;
 }
-.noibat_left .small .small_top {
-    margin-right: 0;
-}
 .noibat_left .small {
     width: 268px;
     float: left ;
-    margin-right: 12px;
+    margin-right: 26px;
     margin-top: 23px;
     font-weight: bold;
 }
@@ -164,33 +161,39 @@ ul, li {
     font-weight: normal;
     margin-top: 11px;
 }
-.noibat_left .small .small_top h2 {
-    font-family: Roboto-Medium;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: normal;
-    margin-top: 11px;
-}
 .noibat_left .small h2 a {
     color: #464646;
     display: inline-block;
 }
-.noibat_left .small img {
+.noibat_left .small_2 {
+    width: 268px;
+    float: left ;
+    margin-top: 23px;
+    font-weight: bold;
+}
+.noibat_left .small_2{
+    display: list-item;
+}
+.noibat_left .small_2 img {
     width: 268px;
     height: 166px;
 }
-.noibat_left .small p.time {
+.noibat_left .small_2 p.time {
     font-family: Arial;
     font-size: 13px;
     color: #777;
     margin: 11px 0 7px;
 }
-.noibat_left .small h2 {
+.noibat_left .small_2 h2 {
     font-family: Roboto-Medium;
     font-size: 15px;
     line-height: 20px;
     font-weight: normal;
     margin-top: 11px;
+}
+.noibat_left .small_2 h2 a {
+    color: #464646;
+    display: inline-block;
 }
 .noibat_right h3.title {
     width: 100%;
@@ -443,6 +446,7 @@ html, body {
 }
 .chinhsachmoi .tab span {
     margin-left: 18px;
+    font-weight: bold;
 }
 .chinhsachmoi ul {
     width: 100%;
