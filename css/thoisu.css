@@ -202,7 +202,7 @@ ul, li {
     font-weight: bold;
     text-transform: uppercase;
     height: 7px;
-    background: url(/images/thoisu_list.png) repeat-x;
+    background: url(../images/thoisu_list.png) repeat-x;
     position: relative;
     z-index: 1;
 }
@@ -241,7 +241,7 @@ ul, li {
     float: left;
 }
 .noibat_right #DocNhieuList li .icon {
-    background: url(/images/thoisu_list.png) no-repeat;
+    background: url(../images/thoisu_list.png) no-repeat;
     width: 7px;
     height: 7px;
     float: left;
@@ -261,7 +261,7 @@ ul, li {
     width: 100%;
     display: inline-block;
     height: 9px;
-    background: url(/images/thoisu_gachnoilist.png) repeat-x;
+    background: url(../images/thoisu_gachnoilist.png) repeat-x;
     position: relative;
     z-index: 1;
     margin-top: 18px;
